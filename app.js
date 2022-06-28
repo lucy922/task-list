@@ -80,6 +80,7 @@ function addTask(e) {
   storeTaskInLocalStorage(taskInput.value);
 
   // Clear input
+  console.log(taskInput);
   taskInput.value = "";
 }
 
